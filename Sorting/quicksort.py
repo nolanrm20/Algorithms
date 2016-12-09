@@ -28,3 +28,10 @@ test_array = [100, 45, 12, 34, 60, 3, 4, 5, 20]
 print("initial array : ", test_array)
 print("sorted array : ", quicksort(test_array))
 
+""" 
+Returns 
+'initial array : [100, 45, 12, 34, 60, 3, 4, 5, 20]
+ sorted array : [3, 4, 5, 12, 20, 34, 45, 60, 100]'
+ 
+"""
+
