@@ -23,18 +23,7 @@ def quicksort(in_list):
 			equal.append(item)
 	return quicksort(smaller) + equal + quicksort(larger)
 
-""" 
-TO TEST : 
-
-
-test_array = [100, 45, 12, 34, 60, 3, 4, 5, 20]
-print("initial array : ", test_array)
-print("sorted array : ", quicksort(test_array))
-
-
-output:
-
-'initial array : [100, 45, 12, 34, 60, 3, 4, 5, 20]
- sorted array : [3, 4, 5, 12, 20, 34, 45, 60, 100]'
-"""
+user_input = input('type list of numbers separated by a comma: ')
+the_list = [int(i) for i in user_input.split(',')]
+print(quicksort(the_list))
 

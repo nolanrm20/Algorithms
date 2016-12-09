@@ -3,7 +3,7 @@
 def bubble_sort(in_list):
 	"""
 	parameter in_list: unsorted mutable list to be sorted
-	
+
 	returns sorted in_list
 	"""
 	switch = True
@@ -21,17 +21,6 @@ def bubble_sort(in_list):
 
 	return in_list
 
-""" 
-TO TEST : 
-
-
-test_array = [100, 45, 12, 34, 60, 3, 4, 5, 20]
-print("initial array : ", test_array)
-print("sorted array : ", bubble_sort(test_array))
-
-
-output:
-
-'initial array : [100, 45, 12, 34, 60, 3, 4, 5, 20]
- sorted array : [3, 4, 5, 12, 20, 34, 45, 60, 100]'
-"""
+user_input = input('type list of numbers separated by a comma: ')
+the_list = [int(i) for i in user_input.split(',')]
+print(bubble_sort(the_list))
