@@ -20,11 +20,15 @@ def bubble_sort(in_list):
 
 	return in_list
 
+""" 
+TO TEST : 
+
+
 test_array = [100, 45, 12, 34, 60, 3, 4, 5, 20]
 print("initial array : ", test_array)
 print("sorted array : ", bubble_sort(test_array))
 
-""" 
+
 output:
 
 'initial array : [100, 45, 12, 34, 60, 3, 4, 5, 20]
