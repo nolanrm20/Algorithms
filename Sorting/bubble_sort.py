@@ -21,6 +21,6 @@ def bubble_sort(in_list):
 
 	return in_list
 
-user_input = input('type list of numbers separated by a comma: ')
+user_input = input('type list of numbers to be sorted \nseparate with a comma: ')
 the_list = [int(i) for i in user_input.split(',')]
 print(bubble_sort(the_list))

@@ -23,7 +23,7 @@ def quicksort(in_list):
 			equal.append(item)
 	return quicksort(smaller) + equal + quicksort(larger)
 
-user_input = input('type list of numbers separated by a comma: ')
+user_input = input('type list of numbers to be sorted \nseparate with a comma: ')
 the_list = [int(i) for i in user_input.split(',')]
 print(quicksort(the_list))
 
