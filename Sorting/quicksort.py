@@ -2,9 +2,9 @@
 
 def quicksort(in_list):
 	""" 
-	:parameter in_list: an unsorted and mutable list to be sorted
+	parameter in_list: an unsorted and mutable list to be sorted
 
-	will return sorted in_list
+	returns sorted in_list
 	"""
 	if len(in_list) <= 1:
 		return in_list

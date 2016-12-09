@@ -2,7 +2,8 @@
 
 def bubble_sort(in_list):
 	"""
-	:parameter in_list: unsorted mutable list to be sorted
+	parameter in_list: unsorted mutable list to be sorted
+	
 	returns sorted in_list
 	"""
 	switch = True
