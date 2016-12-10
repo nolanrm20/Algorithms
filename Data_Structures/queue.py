@@ -33,5 +33,13 @@ print("current size: ", queue.size())
 print("Delete: ", queue.delete())
 print("current queue: ", queue.getQueue())
 
+output:
+Start queue:  [10, 20, 30, 40]
+Delete:  10
+current queue:  [20, 30, 40]
+current size:  3
+Delete:  20
+current queue:  [30, 40]
+
 """
 
