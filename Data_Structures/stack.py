@@ -27,6 +27,7 @@ class Stack:
 			return self.sList[self.top]
 
 
+""" Test
 
 stack = Stack()
 stack.push(10)
@@ -44,4 +45,19 @@ print('size : ', stack.size())
 print('pop : ', stack.pop())
 print('pop : ', stack.pop())
 print('size : ', stack.size())
+
+output:
+pushing 10...
+pushing 20...
+pushing 30...
+size :  3
+pop :  30
+pop :  20
+pushing 40...
+size :  2
+pop :  40
+pop :  10
+size :  0
+
+""
 
